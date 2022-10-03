@@ -1,0 +1,3 @@
+# GET All Todo
+GET http://localhost:3000/
+
