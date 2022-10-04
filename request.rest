@@ -8,3 +8,20 @@ Content-Type: application/json
 {
    "todo":"Belajar Node JS" 
 }
+
+###
+PUT http://localhost:3000
+Content-Type: application/json
+
+{
+    "id":0,
+    "todo":"todo update"
+}
+
+###
+DELETE  http://localhost:3000
+Content-Type: application/json
+
+{
+    "id":0
+}
